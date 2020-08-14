@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            margin: 0;
+        }
+    
+        
+    .chblack{
+    background: black;
+    color: white;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    flex: 2;
+    height: 10vh
+    }
+
+    .chwhite{
+    background: white;
+    color: black;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    flex: 2;
+    height: 10vh
+    }
+
+
+</style>
+
+
+</head>
+<body>
+
+    <div style="border:10px solid black;">
+    
+    
+    <div style="display: flex;">
+
+    <div style="background: black;
+    color: white;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    flex: 2;
+    height: 10vh;">
+    <img src="whiteRook.png " alt="">
+    </div>
+    
+    <div style="background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    height: 10vh;">
+    <img src="blackKnight.png" alt="">
+    </div>
+
+    <div class="chblack">
+        <img src="whiteBishop.png" alt="">
+    </div>
+    
+    <div class="chwhite">
+        <img src="blackQueen.png" alt="">
+    </div>
+
+    <div class="chblack">
+        <img src="whiteKing.png" alt="">
+    </div>
+    
+    <div class="chwhite">
+        <img src="blackBishop.png" alt="">
+    </div>
+
+    <div class="chblack">
+        <img src="whiteKnight.png" alt="">
+    </div>
+    
+    <div class="chwhite">
+        <img src="blackRook.png" alt="">
+    </div>
+
+
+</div>
+
+
+    <div style="display: flex;">
+        
+        <div class="chwhite">
+            <img src="blackPawn.png" height="50px" width="50px">
+        </div>
+    
+        <div class="chblack"><img src="whitePawn.png" height="50px" width="60px">
+        </div>
+        
+        <div class="chwhite"><img src="blackPawn.png" height="50px" width="50px"></div>
+    
+        <div class="chblack">
+            <img src="whitePawn.png" height="50px" width="60px" alt="">
+        </div>
+        
+        <div class="chwhite">
+            <img src="blackPawn.png" height="50px" width="50px" alt="">
+        </div>
+
+        <div class="chblack">
+            <img src="whitePawn.png" height="50px" width="60px" alt="">
+        </div>
+    
+        <div class="chwhite">
+            <img src="blackPawn.png" height="50px" width="50px" alt="">
+        </div>
+
+        <div class="chblack">
+            <img src="whitePawn.png" height="50px" width="60px" alt="">
+        </div>
+    </div>
+
+    
+    
+    <div style="display: flex;">
+        
+        <div class="chblack"></div>
+        
+        <div class="chwhite"></div>
+    
+        <div class="chblack"></div>
+        
+        <div class="chwhite"></div>
+
+        <div class="chblack"></div>
+    
+        <div class="chwhite"></div>
+
+        <div class="chblack"></div>
+
+        <div class="chwhite"></div>
+    </div>
+
+
+
+    <div style="display: flex;">
+        
+        <div class="chwhite"></div>
+    
+        <div class="chblack"></div>
+        
+        <div class="chwhite"></div>
+    
+        <div class="chblack"></div>
+        
+        <div class="chwhite"></div>
+
+        <div class="chblack"></div>
+    
+        <div class="chwhite"></div>
+
+        <div class="chblack"></div>
+    </div>
+
+    
+    
+    <div style="display: flex;">
+        
+        <div class="chblack"></div>
+        
+        <div class="chwhite"></div>
+    
+        <div class="chblack"></div>
+        
+        <div class="chwhite"></div>
+
+        <div class="chblack"></div>
+    
+        <div class="chwhite"></div>
+
+        <div class="chblack"></div>
+
+        <div class="chwhite"></div>
+    </div>
+
+
+    <div style="display: flex;">
+        
+        <div class="chwhite"></div>
+    
+        <div class="chblack"></div>
+        
+        <div class="chwhite"></div>
+    
+        <div class="chblack"></div>
+        
+        <div class="chwhite"></div>
+
+        <div class="chblack"></div>
+    
+        <div class="chwhite"></div>
+
+        <div class="chblack"></div>
+    </div>
+
+    
+    
+    <div style="display: flex;">
+        
+       <div class="chblack"><img src="whitePawn.png" height="50px" width="60px">
+        </div>
+        
+        <div class="chwhite"><img src="blackPawn.png" height="50px" width="50px"></div>
+    
+        <div class="chblack">
+            <img src="whitePawn.png" height="50px" width="60px" alt="">
+        </div>
+        
+        <div class="chwhite">
+            <img src="blackPawn.png" height="50px" width="50px" alt="">
+        </div>
+
+        <div class="chblack">
+            <img src="whitePawn.png" height="50px" width="60px" alt="">
+        </div>
+    
+        <div class="chwhite">
+            <img src="blackPawn.png" height="50px" width="50px" alt="">
+        </div>
+
+        <div class="chblack">
+            <img src="whitePawn.png" height="50px" width="60px" alt="">
+        </div>
+
+        <div class="chwhite">
+            <img src="blackPawn.png" height="50px" width="50px">
+        </div>
+    </div>
+
+
+
+
+        
+    <div style="display: flex;">
+        
+        <div class="chwhite">
+            <img src="blackRook.png" alt="">
+        </div>
+    
+        <div class="chblack">
+            <img src="whiteKnight.png" alt="">
+        </div>
+        
+        <div class="chwhite">
+            <img src="blackBishop.png" alt="">
+        </div>
+    
+        <div class="chblack">
+            <img src="whiteQueen.png" alt="">
+        </div>
+        
+        <div class="chwhite">
+            <img src="blackKing.png" alt="">
+        </div>
+
+        <div class="chblack">
+            <img src="whiteBishop.png" alt="">
+        </div>
+    
+        <div class="chwhite">
+            <img src="blackKnight.png" alt="">
+        </div>
+
+        <div class="chblack">
+            <img src="whiteRook.png" alt="">
+        </div>
+    </div>
+    
+
+    </div>
+</body>
+</html>
