@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>background as an image</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        .myclass {
+            height: 100vh;
+
+            /*background: url('LL1.JPG');*/
+            background: url("https://picsum.photos/id/214/1400/1200");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="myclass" style="display: flex;
+    flex-direction: column;
+    height: 100vh;">
+
+        <div style="flex: 1;
+        display: flex;
+        justify-content: space-between; font-size: 10px;">
+            <div style=" display: flex; justify-content: start; align-items: flex-start;padding: 8px;">CDAC</div>
+            <div style=" display: flex; justify-content: start; align-items: flex-start;padding: 8px;">Mumbai</div>
+        </div>
+
+        <div style="flex: 12; justify-content: center; align-items: center; display: flex;">
+            <div
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center; font-weight: bold; padding: 16px;">
+                <div style="flex: 1; color: red; align-items: flex-end; display: flex;">08:08
+                </div>
+                <div style="flex: 1; color:darkblue; align-items: flex-start; display: flex;">We
+                    Can We Will</div>
+            </div>
+        </div>
+
+        <div style="flex: 1;
+        display: flex;
+        justify-content: space-between;">
+            <div style="font-size: 10px; display: flex; ">India</div>
+            <div style="font-size: 10px; display: flex;">Today</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
