@@ -1,0 +1,123 @@
+.container{
+	width: 100%;
+	
+
+}
+.header{
+	width: 100%;
+	margin-bottom: 26px;
+	background-color:#3b5998;
+	display: flex;
+	justify-content: flex-end;
+
+	
+
+}
+.logo
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.logo img{
+	margin-top:40px;
+	margin-right: 500px;
+	height: 40px;
+	
+}
+.email{
+	margin-top: 24px;
+	
+	float: left;
+
+}
+.email label{
+	color: #f3ffff;
+	margin-bottom: 11px;
+	display: block;
+}
+.password{
+	margin-top: 24px;
+	margin-left: 19px ;
+	float: left;
+}
+.password label{
+	color: #f3ffff;
+	margin-bottom: 11px;
+	display: block;
+}
+.btn{
+	color: #f3ffff;
+	padding: 5px;
+	border: 1px solid #29487d;
+	background-color: #4267b2;
+	margin-top: 50px;
+	margin-left: 18px ;
+	margin-bottom: 30px;
+
+
+
+}
+.password a{
+	display: block;
+	color: #9cabc5;
+	margin-top: 10px;
+	margin-bottom: 7px;
+}
+
+.sidebar{
+	float: left;
+	width:833px;
+	height:719px; 
+	margin-left: 900px;
+
+	
+}
+.sidebar h1{
+		margin-top: 15px;
+		margin-right: 371px;
+		margin-bottom: 20px;
+		color: #333333;
+		font-size:32px;
+		font-weight: bold;
+}
+
+.sidebar p{
+	margin-right: 527px;
+	font-size: 10px;
+	margin-bottom: 34px;
+	color: grey;
+}
+
+
+.one{
+	margin-top: 14px;
+	margin-bottom:15px;
+}
+
+
+.bt{
+	height: 48px;
+	padding: 10px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 18px ;
+	margin-bottom: 30px;
+	color: white;
+	border: #3ce0ed;
+	border-radius: 10px;
+	background-color: #3b6e22;
+	
+}
+	}
+	.footer{
+		color:blue;
+		background-color: orange;
+		margin-bottom: 120px;
+		text-align: center;
+		margin-top: 126px;
+		width: 1889px;
+		clear: both;
+		font-size: 15px;
+	}
+
