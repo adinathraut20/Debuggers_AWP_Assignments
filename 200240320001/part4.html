@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="part4.js"></script>
+</head>
+
+<body>
+    <div> Someone posted Something</div>
+    <div>
+        <input type="text" id="inputid" placeholder=" write comment">
+    </div>
+
+    <div style="margin-top: 4px;">
+        <button id="likeid" onclick="LikeHere()">Like 0</button>
+        <button id="commentid" onclick="CommentHere()">Comment</button>
+
+    </div>
+
+    <div id="CommentBox">
+        <div id="referance"
+            style="display: flex;justify-content: space-between;background-color: blue;margin-top: 4px; visibility: hidden;">
+            <div>Sample comment</div>
+
+            <button id="deleteid" onclick="deleteHere(this)">Delete</button>
+
+        </div>
+    </div>
+</body>
