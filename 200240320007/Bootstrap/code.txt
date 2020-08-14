@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-fluid" >
+        <div class=" row bg-primary justify-content-between  " style="height: 50px;">
+
+            <div class=" d-flex align-items-center" style=" color: #fff;font-size: 22px;padding-left: 10px;">
+                Home
+            </div>
+
+            <div class=" d-flex " style="align-items: center; color: #fff; padding-right: 10px;">
+                Logout
+            </div>
+        </div>
+
+
+        
+
+        <div class='row'>
+            <div class="col-3"></div>
+            <div class='col-12 col-sm-6 bg-info justify-content-center d-flex align-items-center ' style='text-align: center; height: 150px; margin-top: 10px; color: #fff;'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, officiis.
+            </div>
+            <div class='col-3'></div>
+        </div>
+
+        <div class='row'>
+            <div class="col-3"></div>
+            <div class='col-12 col-sm-6 bg-info justify-content-center d-flex align-items-center' style='text-align: center; height: 150px; margin-top: 10px; color: #fff;'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, officiis.
+            </div>
+            <div class='col-3'></div>
+        </div>
+
+        <div class='row'>
+            <div class="col-3"></div>
+            <div class='col-12 col-sm-6 bg-info justify-content-center d-flex align-items-center' style='text-align: center; height: 150px; margin-top: 10px; color: #fff;'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, officiis.
+            </div>
+            <div class='col-3'></div>
+        </div>
+
+        <div class='row'>
+            <div class="col-3"></div>
+            <div class='col-12 col-sm-6 bg-info justify-content-center d-flex align-items-center' style='text-align: center; height: 150px; margin-top: 10px; color: #fff;'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, officiis.
+            </div>
+            <div class='col-3'></div>
+        </div>
+
+        <div class='row'>
+            <div class="col-3"></div>
+            <div class='col-12 col-sm-6 bg-info justify-content-center d-flex align-items-center' style='text-align: center; height: 150px; margin-top: 10px; color: #fff;'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, officiis.
+            </div>
+            <div class='col-3'></div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>
