@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>whatsapp</title>
+    <script src="https://kit.fontawesome.com/0ff6456f25.js" crossorigin="anonymous"></script>
+    <script src="whatsapp.js"></script>
+    <style>
+        .main-div{
+            display: flex;
+            height: 100vh;
+        }
+        .L{
+            flex: 3;
+        }
+        .R{
+            flex: 3;
+        }
+        .M{
+            flex: 2.5;
+        }
+        .whatsapp-box{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }   
+        .top{
+            flex: 0.5;
+        }
+        .middle{
+            flex: 5;
+          border: 1px solid black;
+          display: flex;
+          flex-direction: column;
+        }
+        .bottom{
+            flex: 0.7;
+        }
+        .M-top{
+            flex:0.8;
+            display: flex;
+            background-color: rgb(27, 177, 77);
+            color: aliceblue;
+        }
+        .name{
+            flex: 1;
+            display: flex;
+        }
+        .calls{
+            flex: 1;
+            text-align: end;
+        }
+        i{
+            margin: 8px;
+            margin-top:  25px;
+            font-size: 25px;
+
+        }
+        .M-middle{
+            flex: 8;
+            background-color: rgba(235, 219, 219, 0.767);
+        }
+        .M-bottom{
+            flex:1;
+            display: flex;
+        }
+        .bottom-right{
+            flex: 1.1;
+        }
+        .bottom-left{
+             flex: 5;
+          
+
+        }
+        .input1{
+            border: 1px solid grey;
+             border-radius: 50px;
+        }
+
+        .img{
+            object-fit: cover;
+            background-position: left;
+            width: 53%;
+            height: 65%;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .a{
+            flex: 0.7;
+            text-align: center;
+        }
+        .b{
+            flex: 1;
+            font-family: Helvetica;
+            text-align: left;
+        }
+        h6{
+            font-size: 12.5px;
+        }
+        .c{
+            flex: 1;
+        }
+        input {
+          justify-content: center;
+          margin-bottom: 20px;
+          border: none;
+          width: 210px;
+           font-size: 22px;
+        }
+        .fas fa-paper-plane{
+            font-size: medium;
+            text-align: left;
+        }
+        #btn{
+            width : 60px;
+            height: 30px;
+            font-size: 13px;
+            text-align: center;
+            margin-top: 19px;
+            cursor: pointer;
+   
+        }
+        </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="L"> </div>
+        <div class="M">
+            <div class="whatsapp-box">
+                <div class="top">  </div>
+                <div class="middle">
+                    <div class="M-top">
+                        <div class="name">
+                            <div class="a"> 
+                                <img class="img" src="a.jpg" alt="">
+                            </div>
+                            <div class="b"> 
+                               <h6> Abhishek Sherekar  online </h6>
+                            </div>
+                       
+                        </div>
+                        <div class="calls">
+                            <i class="fas fa-video"></i>
+                            <i class="fas fa-phone-alt"></i>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                    <div id="Middle" class="M-middle">
+
+                    </div>
+                    <div class="M-bottom">
+                        <div class="bottom-left">
+                            <div class="input" >
+                                <i class="fas fa-smile-beam"></i>
+                                <input id="msg" type="text" placeholder="Type here...">
+                                <i class="fas fa-paperclip"></i>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="bottom-right">
+                            <button id="btn" onclick="send()"> SEND </button> 
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="bottom">  </div>
+            </div>
+        </div>
+        <div class="R"></div>
+
+    </div>
+
+</body>
+</html>
