@@ -1,0 +1,7 @@
+#submenu ul{
+    list-style: none;
+}
+
+#submenu ul li{
+    display: inline-block;
+}
