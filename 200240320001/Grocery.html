@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <script src="Grocery.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 bg-primary" style="height: 20em;">
+                <div class="row justify-content-center align-items-center"
+                    style="height: 5em; font-weight: bold; font-size:2em ;">Add
+                    Grocery Items</div>
+                <div class="row justify-content-center align-items-center">
+                    <input type="text" id="inputid" style="background: grey; width: 22em;">
+                </div>
+                <div class="row justify-content-center align-items-center" style="margin-top: 2em;">
+                    <button type="button" class="btn btn-success" onclick="SubmitHere()"
+                        style="width: 10em; font-weight: bold;">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center" style="height: 15em;">
+            <div class="col-12 col-md-6 bg-info justify-content-center " style="height:15em; ">
+                <div class="row bg-secondary justify-content-center align-items-center"
+                    style="height: 2em; font-weight: bold;font-size: 24px;">Grocery Items
+                </div>
+
+                <div class="row bg-secondary justify-content-between align-items-start" id="CommentBox"
+                    style="height: 13em; font-weight: bold; visibility: hidden;">
+
+                    <div class="row d-flex justify-content-between " id="referance" style="width:100%;">
+
+                        <div class="col-6">Sample comment</div>
+                        <div class="col-1 justify-content-center"><button type="button" onclick="DeleteHere(this)"
+                                style="padding: 0;" class="btn btn-dark">Delete</button>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row justify-content-center align-items-center" style="height: 5em;">
+            <div class="col-12 col-md-6 bg-primary d-flex" onclick="ClearAll(this)"
+                style="height:5em; justify-content: center;align-items: center;font-weight: bold;">Clear Items
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
