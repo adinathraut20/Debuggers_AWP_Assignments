@@ -1,1 +1,1 @@
-<h3>Practice of JSON, Array, Normal Function, Anynomus Function and Arrow Function on Chrome Console done.</h3>
+##Practice of JSON, Array, Normal Function, Anynomus Function and Arrow Function on Chrome Console done.
