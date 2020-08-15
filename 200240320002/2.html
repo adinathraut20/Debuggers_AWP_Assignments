@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="2.js"></script>
+<script src="https://kit.fontawesome.com/0ff6456f25.js" crossorigin="anonymous"></script>
+<style>
+    body{
+        background-image: url("b1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-dark sticky-top text-light align-items-center " style="height: 10vh; text-align: center; font-size: 22px; font-family: cursive;">
+            <div class="col-2">Home</div>
+            <div class="col-8">Welcome Guys</div>
+            <div class="col-2">Logout</div>
+        </div>
+        <div class="row " style="height: 100vh;">
+          <div class="col-3 "> </div>
+          <div class="col-6 "> 
+            <div class="row mt-5 style="height: 23vh;">  
+            <div class="col  " style="background-color: grey; display:flex; height: 100px;">
+             <input id="tp" class="form-control mt-3" type="text" placeholder=" Whats on your mind..!" style="width: 70%; font-size: 18px;">
+            <button class="btn btn-primary mt-3" id="input" type="submit" onclick=" addpost()" style="width: 90px; height: 40px;">Post</button> 
+              
+            </div>
+            </div>  
+              
+              
+            <div id="cnt" lass="row" style="display: flex; visibility: hidden; background-color: rgb(197, 211, 211);justify-content: space-between; border-radius: 50px;">
+                <div id="child1"> sample </div>
+              <div>
+                 <button class="btn btn-danger mr-0" onclick="dltchild(this)">  <i class="fas fa-trash"></i></button> 
+                 <button  class="btn btn-danger" onclick="check(this)" ><i class="fas fa-clipboard-check"></i>  </button>
+                 <button class="btn btn-danger" onclick="editTask(this)"> <i class="fas fa-edit"></i></button> </div>
+            </div>
+          </div>
+          <div class="col-3 "> </div>
+        </div>
+       
+    </div>
+</body>
+</html>
