@@ -1,0 +1,1 @@
+Practice of JSON, Array, Normal Function, Anynomus Function and Arrow Function done.
