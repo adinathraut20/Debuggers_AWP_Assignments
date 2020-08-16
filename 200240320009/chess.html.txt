@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chessboard</title>
+<style type="text/css">
+    .chessboard{
+        margin-left: 250px;
+        margin-top: 250px;
+        margin-bottom: 250px;
+        width: 1000px;
+        height: 1000px;
+        border: 2px solid black;
+    }
+</style>
+</head>
+<body>
+    <div class="chessboard">
+        <div style="display:flex">
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+        </div>
+        <div style="display:flex">
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+        </div>
+        <div style="display:flex">
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+        </div>
+        <div style="display:flex">
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+        </div>
+        <div style="display:flex">
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+        </div>
+        <div style="display:flex">
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+        </div>
+        <div style="display:flex">
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+        </div>
+        <div style="display:flex">
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+            <div style="background: white; height:125px; flex:1;"></div>
+            <div style="background: black; height:125px; flex:1;"></div>
+        </div>
+
+    </div>
+</body>
+</html>

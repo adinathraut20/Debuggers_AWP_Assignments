@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Document</title>
+
+    <style>
+        .bng{
+            background: url("https://picsum.photos/id/234/200/300");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bng">
+        <div class="row bg-warning align-items-center sticky-top" style="height:60px">
+            <div class="col-2 text-light" style="font-size:21px">My Projext</div>
+            <div class="col-9"></div>
+            <div class="col-1 text-light">Logout</div>
+        </div>
+
+        <div class="row mt-1 " style="height:150px">
+            <div class="col-3"></div>
+            <div class="col-12 col-md-6 bg-info rounded">HELLO</div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row mt-1 " style="height:150px">
+            <div class="col-3"></div>
+            <div class="col-6 bg-info rounded" style="border-radius: 20px !important">HELLO</div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row mt-1 " style="height:150px">
+            <div class="col-3"></div>
+            <div class="col-6 bg-info rounded d-flex justify-content-center align-items-center">HELLO</div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row mt-1 " style="height:150px">
+            <div class="col-3"></div>
+            <div class="col-6 bg-info rounded">HELLO</div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row mt-1 " style="height:150px">
+            <div class="col-3"></div>
+            <div class="col-6 bg-info rounded">HELLO</div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row mt-1 " style="height:150px">
+            <div class="col-3"></div>
+            <div class="col-6 bg-info rounded">HELLO</div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row mt-1 " style="height:150px">
+            <div class="col-3"></div>
+            <div class="col-6 bg-info rounded">HELLO</div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row mt-1 " style="height:150px">
+            <div class="col-3"></div>
+            <div class="col-6 bg-info rounded">HELLO</div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+</body>
+</html>
